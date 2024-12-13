@@ -4,7 +4,7 @@
 - 🤝 Looking to Collaborate On: Projects that apply machine learning and deep learning techniques to solve biological problems and develop innovative bioinformatics pipelines.
 - 📫 How to reach me:
   - Email: shekarlp18@gmail.com
-  - LinkedIn: www.linkedin.com/in/chandrashekar-c-r-041855252
+  - LinkedIn: [www.linkedin.com/in/chandrashekar-c-r](https://www.linkedin.com/in/chandrashekar-c-r/)
 - ⚡ Goals: By uploading my projects to GitHub, I aim to showcase my growth in both code development and computational biology research. This platform allows me to share my work with the academic and industrial communities, fostering collaboration and learning from others' experiences.
 
 <!---
