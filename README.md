@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ChandrashekarCR, a Master's student in Bioinformatics at Lund University, Sweden.
-- 🔍 Interests: Exploring the intersection of computer science, biology, and mathematics through computational biology/bioinformatics. I aspire to be domain-agnostic, aiming to solve biological problems using computational and mathematical approaches. I strive to be part of the revolutionizing Bio-IT industry and contribute to the evergreen field of academia.
+- 🔍 Interests: Exploring the intersection of biology, computer science and mathematics through computational biology/bioinformatics. I aspire to be domain-agnostic, aiming to solve biological problems using computational and mathematical approaches. I strive to be part of the revolutionizing Bio-IT industry and contribute to the evergreen field of academia.
 - 🌱 Currently Learning: R and Java to enhance my computational biology skills. Always eager to acquire new knowledge and tools to broaden my computational biology/bioinformatics expertise.
 - 🤝 Looking to Collaborate On: Projects that apply machine learning and deep learning techniques to solve biological problems and develop innovative bioinformatics pipelines.
 - 📫 How to reach me:
