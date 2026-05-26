@@ -15,7 +15,7 @@ Bioinformatician with experience in applying machine learning to biological prob
 ## Technical Skills
 - **Bioinformatics:** Nextflow, Snakemake, Genomics, Transcriptomics, Metagenomics, Structural Bioinformatics
 - **Machine Learning & Data Science:** PyTorch, scikit-learn, LLMs, RAG, MLflow
-- **Development & Tools:** Python, Bash, R, SQL, Linux, Git, Docker, FastAPI
+- **Development & Tools:** Python, Bash, R, SQL, Linux, Git, Docker/Apptainer, FastAPI
 
 ## Recent Experience
 - **Master's Thesis / Student Intern**, Lund University (Dec 2025 - Present)
