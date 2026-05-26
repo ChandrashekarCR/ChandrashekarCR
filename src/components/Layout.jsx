@@ -1,4 +1,5 @@
 import React from 'react';
+import { Terminal } from 'lucide-react';
 import { Link, NavLink } from 'react-router-dom';
 import { personalInfo } from '../data';
 
@@ -8,8 +9,13 @@ function Layout({ children }) {
       <div className="hero-ambient" aria-hidden="true" />
       <nav className="fixed w-full top-0 bg-background/80 backdrop-blur-md border-b border-border z-50">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <Link to="/" className="font-bold text-xl tracking-tighter text-primary">chandra.sh</Link>
-          <div className="hidden md:flex gap-6 text-sm font-medium text-muted-foreground">
+          <Link
+            to="/"
+            className="font-bold text-xl tracking-tighter text-primary flex items-center gap-2"
+          >
+            <Terminal size={20} />
+            <span>chandra_shekar.sh</span>
+          </Link>          <div className="hidden md:flex gap-6 text-sm font-medium text-muted-foreground">
             <NavLink to="/about" className={({ isActive }) => isActive ? 'text-primary' : 'hover:text-primary transition-colors'}>
               About
             </NavLink>
