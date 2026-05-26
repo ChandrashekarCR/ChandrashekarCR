@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting…</title>
+    <script>
+      ;(function () {
+        var l = window.location
+        var base = '/ChandrashekarCR/'
+        var basePath = base.endsWith('/') ? base : base + '/'
+        var path = l.pathname
+        if (path.startsWith(basePath)) {
+          path = path.slice(basePath.length)
+        } else if (path.startsWith('/')) {
+          path = path.slice(1)
+        }
+        var newPath = basePath + '?/' + path + l.search + l.hash
+        l.replace(newPath)
+      })()
+    </script>
+  </head>
+  <body>
+    Redirecting…
+  </body>
+</html>
