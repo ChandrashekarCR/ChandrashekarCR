@@ -1,16 +1,28 @@
-# React + Vite
+# Chandrashekar CR
+**Bioinformatics Solution Architect** | *Bioinformatics, built as end-to-end systems.*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌍 Lund, Sweden / Bengaluru, India
 
-Currently, two official plugins are available:
+🔗 **[Visit my Portfolio Website](https://chandrashekarcr.github.io/ChandrashekarCR/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About Me
+Bioinformatician with experience in applying machine learning to biological problems, from predicting viral mutations in pandemic response to building ensemble models for metagenomic analysis. I focus on building AI-native platforms where generative models, biological data, and experimental feedback integrate into reproducible, production-grade discovery pipelines.
 
-## React Compiler
+## Education
+- **MSc Bioinformatics** — Lund University (2024 - 2026)
+- **BE Biotechnology** — MS Ramaiah Institute of Technology (2019 - 2023)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technical Skills
+- **Bioinformatics:** Nextflow, Snakemake, Genomics, Transcriptomics, Metagenomics, Structural Bioinformatics
+- **Machine Learning & Data Science:** PyTorch, scikit-learn, LLMs, RAG, MLflow
+- **Development & Tools:** Python, Bash, R, SQL, Linux, Git, Docker, FastAPI
 
-## Expanding the ESLint configuration
+## Recent Experience
+- **Master's Thesis / Student Intern**, Lund University (Dec 2025 - Present)
+- **Summer Intern**, Biomedical Centre (BMC), Lund (Jun 2025 - Sept 2025)
+- **Project Intern**, National Centre for Biological Sciences (NCBS), Bengaluru (Jul 2023 - Jun 2024)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contact & Links
+- **Email:** shekarlp18@gmail.com
+- **LinkedIn:** [chandrashekar-c-r](https://www.linkedin.com/in/chandrashekar-c-r/)
+- **GitHub:** [ChandrashekarCR](https://github.com/ChandrashekarCR)
