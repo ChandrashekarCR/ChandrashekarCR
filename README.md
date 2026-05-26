@@ -1,5 +1,5 @@
 # Chandrashekar CR
-**Bioinformatics Solution Architect** | *Bioinformatics, built as end-to-end systems.*
+**Bioinformatics Developer** | *Bioinformatics, built as end-to-end systems.*
 
 🌍 Lund, Sweden / Bengaluru, India
 
