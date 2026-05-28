@@ -11,22 +11,43 @@ export const personalInfo = {
 };
 
 export const aboutSection = {
-  title: "Bioinformatics as systems design",
-  paragraphs: [
-    "I don't see bioinformatics as a collection of tools — but as the design of end-to-end systems that connect biological questions to machine learning, and ML back to experimental decision-making.",
-    "My long-term direction is to work as a bioinformatics solution architect — building AI-native platforms where generative models, biological data, and experimental feedback integrate into reproducible, production-grade discovery pipelines.",
-    "My interest in proteins began in undergrad with structural biology and mutational analysis at NCBS. At Lund, I pivoted to omics — genomics, transcriptomics, metagenomics — and began designing the computational infrastructure around biology rather than just running analyses.",
-    "My MSc thesis at Dr. Eran Elhaik's lab reflects this: a complete microbial-forensics platform combining Snakemake workflows, GPU-accelerated ML, FastAPI backend, and RAG-based automated reporting — using metagenomic signatures to predict geographic origin."
-  ],
-  quickFacts: [
-    "Based in Lund, Sweden",
-    "MSc Bioinformatics, Lund University (2024–2026)",
-    "BE Biotechnology, MSRIT — CGPA 9.2/10",
-    "Teaching Assistant — Python, Bash, sequence analysis",
-    "Carnatic classical violinist — concerts across Scandinavia",
-    "VTU Central Zone football winners"
-  ]
+title: "Bioinformatics as systems design",
+paragraphs: [
+"I am a computational bioinformatics engineer focused on building scalable, reproducible, and system-oriented solutions for biological research.",
+
+```
+"My work sits at the intersection of bioinformatics, machine learning, scientific computing, and software engineering, with a strong emphasis on designing computational systems that can support modern data-intensive biology.",
+"With formal training in biotechnology during my bachelor's degree, I developed a strong foundation in molecular biology, genetics, microbiology, and biological systems. This biological understanding allows me to adapt quickly across domains and develop bioinformatics-driven solutions for diverse biological problems.",
+"My core philosophy is that bioinformatics itself is a computational framework and set of tools, while the real scientific objective is solving meaningful biological questions. This perspective has allowed me to remain domain-agnostic and adapt effectively to new biological problems, datasets, and research environments.",
+"During my time at Lund University, and especially through my work in Dr. Eran Elhaik's lab, I developed a systems-first approach toward computational biology — focusing on reproducibility, scalability, maintainability, and architectural thinking while designing scientific workflows and analytical platforms.",
+"I specialize in developing end-to-end computational workflows for omics and biological data, integrating workflow orchestration, machine learning pipelines, backend systems, APIs, and scientific infrastructure into unified research platforms.",
+
+"My experience includes:",
+" - HPC-native workflow development using Nextflow and Slurm",
+" - Machine learning systems for biological and geospatial data",
+" - Reproducible bioinformatics pipelines",
+" - Backend architecture and API-driven scientific systems",
+" - Scalable data processing and orchestration",
+" - Multi-omics and microbiome data analysis",
+" - Research software engineering for computational biology",
+
+"What differentiates my approach is the combination of biological understanding with systems-level engineering thinking. I focus on creating computational frameworks that are extensible, reproducible, and capable of supporting large-scale biological research across HPC and cloud-compatible environments.",
+"I am continuously working to improve my understanding of modern software engineering practices, scalable computational infrastructure, and advanced bioinformatics methodologies to build robust solutions for complex biological research problems.",
+"My long-term interests lie in computational infrastructure for biology, AI-driven bioinformatics systems, workflow orchestration, scientific platform engineering, and scalable research architectures that bridge biological science with modern software engineering."
+```
+
+],
+
+quickFacts: [
+"Based in Lund, Sweden",
+"MSc Bioinformatics, Lund University (2024–2026)",
+"BE Biotechnology, MSRIT — CGPA 9.2/10",
+"Teaching Assistant — Python, Bash, sequence analysis",
+"Carnatic classical violinist — concerts across Scandinavia",
+"VTU Central Zone football winners"
+]
 };
+
 
 export const education = [
   {
