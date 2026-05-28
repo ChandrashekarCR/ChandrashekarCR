@@ -15,7 +15,7 @@ title: "Bioinformatics as systems design",
 paragraphs: [
 "I am a computational bioinformatics engineer focused on building scalable, reproducible, and system-oriented solutions for biological research.",
 
-```
+
 "My work sits at the intersection of bioinformatics, machine learning, scientific computing, and software engineering, with a strong emphasis on designing computational systems that can support modern data-intensive biology.",
 "With formal training in biotechnology during my bachelor's degree, I developed a strong foundation in molecular biology, genetics, microbiology, and biological systems. This biological understanding allows me to adapt quickly across domains and develop bioinformatics-driven solutions for diverse biological problems.",
 "My core philosophy is that bioinformatics itself is a computational framework and set of tools, while the real scientific objective is solving meaningful biological questions. This perspective has allowed me to remain domain-agnostic and adapt effectively to new biological problems, datasets, and research environments.",
@@ -34,7 +34,7 @@ paragraphs: [
 "What differentiates my approach is the combination of biological understanding with systems-level engineering thinking. I focus on creating computational frameworks that are extensible, reproducible, and capable of supporting large-scale biological research across HPC and cloud-compatible environments.",
 "I am continuously working to improve my understanding of modern software engineering practices, scalable computational infrastructure, and advanced bioinformatics methodologies to build robust solutions for complex biological research problems.",
 "My long-term interests lie in computational infrastructure for biology, AI-driven bioinformatics systems, workflow orchestration, scientific platform engineering, and scalable research architectures that bridge biological science with modern software engineering."
-```
+
 
 ],
 
