@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { personalInfo } from '../data';
-import { GitBranch, Link2, Mail, ArrowRight, Dna, Cpu, Microscope, Sparkles } from 'lucide-react';
+import { GitBranch, Link2, Mail, ArrowRight, Dna, Cpu, Microscope, Sparkles, Code2, Workflow, Layers3 } from 'lucide-react';
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <div className="hero-grid lg:grid-cols-[1.1fr_0.9fr] items-center">
         <div className="space-y-6 animate-fade-in-up">
           <span className="kicker">
-            <Sparkles size={14} /> Bioinformatics + ML Systems
+            <Sparkles size={14} /> Biology + Software + Systems Thinking
           </span>
           <p className="text-secondary-foreground font-mono font-medium tracking-wide">
             Hej! I am
@@ -24,10 +24,91 @@ function Home() {
             {personalInfo.about}
           </p>
 
-          <div className="flex flex-wrap gap-3 pt-4">
-            <span className="pill"><Dna size={14} /> Omics</span>
-            <span className="pill"><Cpu size={14} /> AI Pipelines</span>
-            <span className="pill"><Microscope size={14} /> Wet Lab ↔ ML</span>
+          <div className="pt-6">
+            <div className="relative mx-auto w-full max-w-xs aspect-square">
+              <div className="absolute inset-0 rounded-full bg-surface/20 ring-1 ring-border/60" />
+
+              <svg
+                className="absolute inset-0 h-full w-full"
+                viewBox="0 0 400 400"
+                aria-hidden="true"
+              >
+                <circle
+                  cx="200"
+                  cy="200"
+                  r="118"
+                  fill="none"
+                  stroke="rgba(42,61,72,0.65)"
+                  strokeWidth="22"
+                />
+                <circle
+                  cx="200"
+                  cy="200"
+                  r="118"
+                  fill="none"
+                  stroke="rgba(116,215,182,0.35)"
+                  strokeWidth="22"
+                  strokeDasharray="120 620"
+                  strokeDashoffset="10"
+                  transform="rotate(-90 200 200)"
+                />
+                <circle
+                  cx="200"
+                  cy="200"
+                  r="118"
+                  fill="none"
+                  stroke="rgba(143,214,255,0.28)"
+                  strokeWidth="22"
+                  strokeDasharray="100 640"
+                  strokeDashoffset="170"
+                  transform="rotate(-90 200 200)"
+                />
+                <circle
+                  cx="200"
+                  cy="200"
+                  r="118"
+                  fill="none"
+                  stroke="rgba(200,169,106,0.22)"
+                  strokeWidth="22"
+                  strokeDasharray="90 650"
+                  strokeDashoffset="340"
+                  transform="rotate(-90 200 200)"
+                />
+              </svg>
+
+              <a
+                href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1122955/"
+                target="_blank"
+                rel="noreferrer"
+                className="absolute left-1/2 top-1/2 z-20 flex h-24 w-24 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-primary/60 bg-primary/15 px-3 text-center text-sm font-semibold text-foreground shadow-lg shadow-primary/10 transition-all duration-300 hover:scale-105 hover:bg-primary/25 hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/70 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              >
+                Bioinformatics
+              </a>
+
+              <div className="absolute left-1/2 top-4 -translate-x-1/2">
+                <span className="pill text-xs">
+                  <Dna size={13} /> Biology
+                </span>
+              </div>
+
+              <div className="absolute right-4 top-1/2 -translate-y-1/2">
+                <span className="pill text-xs">
+                  <Code2 size={13} /> Software
+                </span>
+              </div>
+
+              <div className="absolute left-1/2 bottom-4 -translate-x-1/2">
+                <span className="pill text-xs">
+                  <Workflow size={13} /> Pipelines
+                </span>
+              </div>
+
+              <div className="absolute left-4 top-1/2 -translate-y-1/2">
+                <span className="pill text-xs">
+                  <Layers3 size={13} /> Systems
+                </span>
+              </div>
+            </div>
           </div>
 
           <div className="flex flex-wrap gap-4 pt-6">
@@ -48,22 +129,30 @@ function Home() {
 
         <div className="space-y-6">
           <div className="glow-card hover-lift p-6">
-            <div className="image-slot">
-              <strong>Add a hero portrait</strong>
-              3:4 photo · studio or lab setting
-            </div>
+            <img
+              src="src/assets/caps_selfie.jpeg"
+              alt="Chandrashekar CR - Portrait"
+              className="w-full h-auto rounded-lg object-cover"
+            />
           </div>
-          <div className="bio-grid md:grid-cols-2">
-            <div className="glow-card hover-lift p-5">
-              <div className="image-slot">
-                <strong>Lab / Wet-lab image</strong>
-                Bench, instrumentation, or microscopy
+          <div className="bio-grid md:grid-cols-2 gap-6">
+            <div className="glow-card hover-lift p-4">
+              <div className="relative w-full aspect-[4/5] overflow-hidden rounded-lg">
+                <img
+                  src="src/assets/bmc_lab_work.jpg"
+                  alt="Chandrashekar CR - Wet Lab Work"
+                  className="absolute inset-0 w-full h-full object-contain"
+                />
               </div>
             </div>
-            <div className="glow-card hover-lift p-5">
-              <div className="image-slot">
-                <strong>Systems / Code image</strong>
-                Pipeline, model, or compute cluster
+
+            <div className="glow-card hover-lift p-4">
+              <div className="relative w-full aspect-[4/5] overflow-hidden rounded-lg bg-white">
+                <img
+                  src="src/assets/rulegraph.png"
+                  alt="Chandrashekar CR - Rule Graph"
+                  className="absolute inset-0 w-full h-full object-contain"
+                />
               </div>
             </div>
           </div>
